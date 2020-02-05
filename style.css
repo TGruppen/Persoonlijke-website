@@ -1,0 +1,43 @@
+#jumbotron-props{
+	background-color: #ccebff;
+	height: 100vh;
+}
+
+.background-white{
+	background-color: white;
+	height: 100vh;
+}
+
+.background-blue{
+	background-color:#ccebff;
+	height: 100vh;
+}
+
+
+#overmij-header{
+	text-align: center;
+	padding-bottom: 40px;
+	font-family: "Open Sans", sans-serif;
+}
+
+#ervaringen-header{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: "Open Sans", sans-serif;
+
+}
+
+#contact-header{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: "Open Sans", sans-serif;
+}
+
+
+
+.textcenter{
+	text-align: center;
+
+}
