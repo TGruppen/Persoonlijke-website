@@ -1,11 +1,15 @@
 #jumbotron-props{
 	background-color: #ccebff;
 	height: 100vh;
+	/*background-image: url("foto.jpg");
+	background-size: cover;*/
+
 }
 
 .background-white{
 	background-color: white;
 	height: 100vh;
+
 }
 
 .background-blue{
@@ -41,3 +45,53 @@
 	text-align: center;
 
 }
+
+
+/* -------- NAVBAR 	-------- */		
+
+#navbar{
+	position: fixed;
+	width: 120px;
+	height: auto;
+	top: 30vh;
+	right: 5vw;
+	overflow: hidden;
+
+
+}
+
+#navbar ul{
+	background-color: black;
+	border-radius: 2%;
+	padding: 10px;
+	text-align: center;
+	padding: 0;
+		
+}
+
+#navbar ul li{	
+	padding: 20px;
+	margin: 0;
+
+
+}
+
+#navbar ul li a{
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	display: block;
+	
+}
+
+#navbar ul li:hover{
+	background-color: #3D9970;
+}
+
+
+
+
+
+
+
