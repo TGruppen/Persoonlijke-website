@@ -1,9 +1,19 @@
-#jumbotron-props{
+#home-jumbotron{
 	background-color: #ccebff;
 	height: 100vh;
-	/*background-image: url("foto.jpg");
-	background-size: cover;*/
+	font-family: "Open Sans", sans-serif;
+	background: #ADD8E6;
 
+}
+.jumbotron-text{
+	margin-top: 50px;
+	color: black;
+	
+	
+}
+#hr-style{
+	max-width: 500px;
+	margin-left: 10px;
 }
 
 .background-white{
@@ -18,8 +28,16 @@
 }
 
 
+.header-props{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: "Open Sans", sans-serif;
+}
+/*
 #overmij-header{
 	text-align: center;
+	padding-top: 40px;
 	padding-bottom: 40px;
 	font-family: "Open Sans", sans-serif;
 }
@@ -39,15 +57,12 @@
 	font-family: "Open Sans", sans-serif;
 }
 
+*/
 
 
-.textcenter{
-	text-align: center;
-
-}
 
 
-/* -------- NAVBAR 	-------- */		
+ /*-------- 	NAVBAR 		-------- */		
 
 #navbar{
 	position: fixed;
@@ -90,8 +105,38 @@
 }
 
 
+/* -------- 	BOX OVEERMIJ	-------- */	
 
 
 
+/*}
 
+.box-ali{
+	text-align: left;
+}
+.box-align-right{
+	text-align: right;*/
+}
+h4{
+	color: #3D9970;
+}
 
+.text-align-left{
+	text-align: left;
+}
+.text-align-right{
+	text-align: right;
+}
+
+.text-align-center{
+	text-align: center;
+
+}
+
+#profile-photo{
+	
+	border-radius: 70%;
+
+	
+
+}
