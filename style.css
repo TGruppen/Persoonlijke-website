@@ -1,68 +1,91 @@
+html, body{
+	margin: 0;
+}
+
+/*-------- 		JUMBOTRON 	-------- */		
+
 #home-jumbotron{
 	background-color: #ccebff;
 	height: 100vh;
+	margin: 0;
+}
+
+.jumbotron-text{
+	color: black;
 	font-family: "Open Sans", sans-serif;
-	background: #ADD8E6;
+	padding: 50px 0 30px 0;
+}
+
+#jumbrotron-hr{
+	max-width: 700px;
+	margin: 20px 0 20px 50px;
+}
+
+.jumbotron-text h1{
+	padding: 0 0 0 50px;
+}
+
+.jumbotron-text h2{
+	padding: 0 0 0 500px;
 
 }
-.jumbotron-text{
-	margin-top: 50px;
-	color: black;
-	
-	
-}
-#hr-style{
-	max-width: 500px;
-	margin-left: 10px;
-}
+
+
+/*-------- 		BACKGROUNDS 	-------- */		
+
 
 .background-white{
 	background-color: white;
 	height: 100vh;
+	width: 100vw;
 
 }
 
 .background-blue{
-	background-color:#ccebff;
-	height: 100vh;
+	background-color: #ccebff;
+	height: 100%;
+	width: 100vw;
+	
+	
 }
 
+
+/*-------- 			(SUB) HEADERS, ROW, HR 		-------- */		
 
 .header-props{
 	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	font-family: "Open Sans", sans-serif;
-}
-/*
-#overmij-header{
-	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	font-family: "Open Sans", sans-serif;
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
 }
 
-#ervaringen-header{
-	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
+.header-props h2{
 	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	padding: 30px;
+	margin: 0;
 
 }
 
-#contact-header{
-	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
+h4{
 	font-family: "Open Sans", sans-serif;
+	font-weight: 500;
+	color: #3D9970;
 }
 
-*/
+.row-props{
+	padding-top: 20px;
+}
 
 
 
+.hr-style{
+	padding: 0;
+	margin: 0;
+}
 
- /*-------- 	NAVBAR 		-------- */		
+ /*-------- 		NAVBAR 		-------- */		
+
 
 #navbar{
 	position: fixed;
@@ -71,8 +94,6 @@
 	top: 30vh;
 	right: 5vw;
 	overflow: hidden;
-
-
 }
 
 #navbar ul{
@@ -81,15 +102,15 @@
 	padding: 10px;
 	text-align: center;
 	padding: 0;
-		
+	font-weight: 100;
 }
+
 
 #navbar ul li{	
 	padding: 20px;
 	margin: 0;
-
-
 }
+
 
 #navbar ul li a{
 	color: white;
@@ -97,46 +118,93 @@
 	text-decoration: none;
 	color: white;
 	display: block;
-	
 }
+
 
 #navbar ul li:hover{
 	background-color: #3D9970;
 }
 
 
-/* -------- 	BOX OVEERMIJ	-------- */	
+/* -------- 	OVER MIJ	-------- */	
 
 
 
-/*}
-
-.box-ali{
-	text-align: left;
-}
-.box-align-right{
-	text-align: right;*/
-}
-h4{
-	color: #3D9970;
-}
-
-.text-align-left{
-	text-align: left;
-}
-.text-align-right{
-	text-align: right;
-}
-
-.text-align-center{
+.over-mij-text{
 	text-align: center;
+	padding-top: 40px;
+	font-family: "Open Sans";
+	font-weight: 100;
+}
+
+.over-mij-photo{
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+.over-mij-profile{
+	text-align: left;
+	font-weight: 100;
+	padding-top: 25px;
+}
+
+
+
+
+ /*-------- 	ERVARINGEN 		-------- */		
+
+.ervaringen-items{
+	line-height: 0.7;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	padding-left: 40px;
 
 }
 
-#profile-photo{
-	
-	border-radius: 70%;
-
-	
-
+.ervaringen-descript1{
+	max-width: 400px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	margin-top: 40px;
 }
+
+.ervaringen-descript2{
+	max-width: 400px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+}
+
+
+ /*-------- 	CONTACT 		-------- */		
+
+ ul{
+
+ }
+
+li{
+	list-style-type: none;
+}
+
+ ul li a{
+ 	color: black;
+ 	text-decoration: none;
+ 		
+
+  }
+  ul li a:hover{
+  	color: #3D9970;
+  	text-decoration: none;
+  }
+ 
+ ul li:hover{
+ 	text-decoration: none;
+ 	color: #3D9970;
+ }
+
+ footer{
+ 	text-align: center;
+ 	margin-top: 500px;
+
+ }
