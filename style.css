@@ -23,14 +23,17 @@ html, body{
 	margin: 20px 0 30px 50px;
 }
 
-.jumbotron-text h1{
+.jumbotron-text h1, {
 	padding: 0 0 0 50px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
 }
 
 .jumbotron-text h2{
 	padding: 0 0 0 500px;
 
 }
+
 
 
 /*-------- 		BACKGROUNDS 	-------- */		
@@ -52,7 +55,7 @@ html, body{
 }
 
 
-/*-------- 			(SUB) HEADERS, ROW, HR 		-------- */		
+/*-------- 			(SUB) HEADERS, HR 		-------- */		
 
 .header-props{
 	text-align: center;
@@ -73,11 +76,8 @@ h4{
 	font-family: "Open Sans", sans-serif;
 	font-weight: 500;
 	color: #3D9970;
-}
-
-
-.row-props{
-	padding-top: 20px;
+	text-align: center;
+	padding: 0 0 10px 0;
 }
 
 
@@ -94,23 +94,21 @@ h4{
 	top: 30%;
 	right: 5%;
 	display: block;
-	width: 120px;
-	height: auto;
 	overflow: hidden;
 }
 
 #navbar ul{
 	background-color: black;
 	border-radius: 2%;
-	padding: 0;
 	text-align: center;
-	
+	padding: 0;
+
 }
 
 
 #navbar ul li{	
-	padding: 20px;
 	margin: 0;
+	padding: 20px;
 }
 
 
@@ -119,12 +117,14 @@ h4{
 	font-weight: 100;
 	list-style: none;
 	text-decoration: none;
-	
+		
 }
 
 
 #navbar ul li:hover{
 	background-color: #3D9970;
+
+
 }
 
 
@@ -150,10 +150,13 @@ h4{
 	padding-top: 30px;
 }
 
-
+.over-mij-profile h4{
+	text-align: left;
+}
 
 
  /*-------- 	ERVARINGEN 		-------- */		
+
 
 .ervaringen-items{
 	line-height: 0.7;
@@ -161,27 +164,30 @@ h4{
 	font-family: "Open Sans", sans-serif;
 	font-weight: 100;
 	padding: 30px 0 0 40px;
+	margin: 0;
 
 }
-
-
-
-
 
 
 .ervaringen-descript1{
 	max-width: 400px;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 100;
-	padding-top: 50px;
+	padding: 70px 0 0 0;
+	margin: 0;
 }
 
 .ervaringen-descript2{
 	max-width: 400px;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 100;
+	padding: 25px 0 0 0;
 
 }
+ .ervaringen-date{
+ 	font-size: 0.8em;
+ 	line-height: 0.7;
+ }
 
 
  /*-------- 	CONTACT 		-------- */		
